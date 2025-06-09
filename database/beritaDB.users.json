@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "682d3e1d909012fae7e17ac9"
+  },
+  "nama": "admin",
+  "email": "admin@porta.com",
+  "password": "$2b$10$7rCxtRVddDSu3VemX3IUz.k9cZinaxRyBwbpcJHU6f6fVW5c2WDve",
+  "foto": "1747882267314.png",
+  "role": "admin",
+  "createdAt": {
+    "$date": "2025-05-21T02:44:45.598Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-22T02:51:07.335Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682fcb8d7e73e5f6b43aa08d"
+  },
+  "nama": "John Doe",
+  "email": "johndoe@gmail.com",
+  "password": "$2b$10$kIlvh4SbbgXXC1XyXbw9o.nwls9DqQ0uAS6T4mhyomdt2KD6F4Elu",
+  "foto": "default_profpic.png",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-05-23T01:12:45.621Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-23T01:12:45.621Z"
+  },
+  "__v": 0
+}]

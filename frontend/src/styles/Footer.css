@@ -1,0 +1,93 @@
+/* Footer */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 30px 80px;
+    text-align: center;
+}
+
+/* Container untuk Logo, Deskripsi, Kategori */
+.footer-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+/* Bagian Kiri (Logo + Deskripsi) */
+.footer-left {
+    text-align: left;
+    max-width: 300px;
+}
+
+.footer-logo {
+    height: 40px;
+    width: auto;
+}
+
+.footer-description {
+    font-size: 14px;
+    color: #bbb;
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Bagian Kanan (Kategori + Copyright) */
+.footer-right {
+    text-align: right;
+    flex-grow: 1;
+}
+
+/* Kategori tetap horizontal */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #e63946;
+}
+
+/* Copyright */
+.footer-copy {
+    font-size: 13px;
+    color: #bbb;
+    text-align: right;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-left,
+    .footer-right {
+        text-align: center;
+    }
+
+    .footer-links {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
